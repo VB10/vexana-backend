@@ -18,6 +18,5 @@ func main() {
 func HelloHandler(writer http.ResponseWriter, request *http.Request) {
 	writer.WriteHeader(http.StatusOK)
 	io.WriteString(writer, `{"alive": true}`)
-
 	fmt.Print("hello")
 }
