@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183ad6d2-e97e-4b7f-a67a-0c3df95caec6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/logins/login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/logins/login_handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/customAuth/firebase_auth_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/customAuth/firebase_rest_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/base/base_response.dart.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/firebase_auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/firebase_service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/logins/login_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/logins/login_handler.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -49,7 +48,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -57,19 +56,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/internal" />
-      <recent name="$PROJECT_DIR$/inits" />
-      <recent name="$PROJECT_DIR$/configs" />
-      <recent name="$PROJECT_DIR$/cmd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pkg" />
       <recent name="$PROJECT_DIR$/internal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/customAuth" />
+      <recent name="$PROJECT_DIR$/api/auth" />
+      <recent name="$PROJECT_DIR$/api" />
+      <recent name="$PROJECT_DIR$/internal" />
+      <recent name="$PROJECT_DIR$/inits" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,9 +116,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/pkg/logins/login_handler.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/logins/login_handler.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/api/customAuth/firebase_rest_service.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/api/customAuth/firebase_rest_service.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
